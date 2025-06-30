@@ -1,0 +1,7 @@
+numero = int(input('digite um numero:'))
+num = str(numero)
+print('analisando o numero {}'.format(num))
+print('a unidade desse numero é {}'.format(num[3]))
+print('a dezena desse numero é {}'.format(num[2]))
+print('a centena desse numero é {}'.format(num[1]))
+print('o milhar desse numero é {}'.format(num[0]))
