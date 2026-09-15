@@ -2,6 +2,7 @@
 
 Resoluções dos exercícios do curso "Python 3 - Curso em Vídeo" (Gustavo Guanabara).
 O repositório cobre o **Mundo 1 (Fundamentos, ex001–ex022)** e o **Mundo 2 (Estruturas de Controle, ex023–ex035)**.
+Os exercícios foram desenvolvidos na IDE **PyCharm**.
 
 Os arquivos ficam em `Pythonexercicios/`, separados por mundo:
 
@@ -57,6 +58,15 @@ Pythonexercicios/
 | `mundo2/ex034_aumento_por_faixa.py` | Lê um salário e aplica 10% de aumento acima de R$ 1250 ou 15% caso contrário. |
 | `mundo2/ex035_analise_triangulo.py` | Lê três segmentos e informa se eles podem formar um triângulo. |
 
+## Dependências
+
+- **Python 3** (biblioteca padrão: `math`, `random`, `datetime`).
+- **pygame** — usado apenas em `mundo1/ex021_tocar_musica.py`:
+
+```bash
+pip install pygame
+```
+
 ## Como executar
 
 Cada exercício é um script independente:
@@ -68,5 +78,5 @@ python Pythonexercicios/mundo2/ex030_par_ou_impar.py
 
 ### Observações
 
-- `mundo1/ex021_tocar_musica.py` depende da biblioteca `pygame` (`pip install pygame`) e carrega o arquivo de áudio `ex0.mp3` a partir do diretório de execução. O arquivo está em `Pythonexercicios/ex0.mp3`, então execute o script a partir de um diretório que contenha um `ex0.mp3` (por exemplo, copiando o arquivo para o diretório atual).
+- `mundo1/ex021_tocar_musica.py` depende da biblioteca `pygame` e carrega o arquivo de áudio `ex0.mp3` a partir do diretório de execução. O arquivo está em `Pythonexercicios/ex0.mp3`, então execute o script a partir de um diretório que contenha um `ex0.mp3` (por exemplo, copiando o arquivo para o diretório atual).
 - Os demais exercícios usam apenas a biblioteca padrão do Python 3.
