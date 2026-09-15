@@ -61,10 +61,10 @@ Pythonexercicios/
 ## Dependências
 
 - **Python 3** (biblioteca padrão: `math`, `random`, `datetime`).
-- **pygame** — usado apenas em `mundo1/ex021_tocar_musica.py`:
+- **pygame** — usado apenas em `mundo1/ex021_tocar_musica.py`. Está listado em `requirements.txt` (o PyCharm oferece instalar automaticamente ao abrir o projeto):
 
 ```bash
-pip install pygame
+pip install -r requirements.txt
 ```
 
 ## Como executar
